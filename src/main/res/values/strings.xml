@@ -1,0 +1,23 @@
+<resources>
+    <string name="application_name">ApplicationVoyage</string>
+    <string name="chargement_position">Chargement de la position</string>
+    <string name="position_trouvée">Position trouvée</string>
+    <string name="volley_exception">On peut pas accéder à Internet\nVerifier si l\'internet est activé</string>
+    <string name="json_exception">Une reponse inéxpectable du serveur\nVeuiller essayer ultérieurement</string>
+    <string name="location">Succée</string>
+    <string name="titre_activity_destination">DestinationActivity</string>
+    <string name="Chargement">Chargement</string>
+    <string name="A">A</string>
+    <string name="B">km</string>
+    <string name="distanceNonTrouvée">Distance non trouvée</string>
+    <string name="poi">POI</string>
+    <string name="Activity">Activity</string>
+    <string name="api_debug_key">AIzaSyCgbK483xqWu5w5NSppcbDl9UOtgq0439g</string>
+    <string name="parcours">Parcours</string>
+    <string name="city">City</string>
+    <string name="appliquer">Appliquer</string>
+    <string name="filter">Filter</string>
+    <string name="Destinations">Destinations</string>
+
+    <string name="titre_activity_maps">Map</string>
+</resources>

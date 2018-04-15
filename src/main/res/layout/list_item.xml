@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_height="60dp"
+        android:id="@+id/ListImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.00"
+        android:layout_width="60dp" />
+    <TextView
+        android:text="@string/Chargement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Distance"
+        android:layout_below="@+id/stars"
+        android:layout_toRightOf="@+id/ListImage"
+        android:layout_toEndOf="@+id/ListImage" />
+    <TextView
+        android:text="@string/Chargement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Display"
+        android:layout_below="@+id/Distance"
+        android:layout_toRightOf="@+id/ListImage"
+        android:layout_toEndOf="@+id/ListImage" />
+    <RatingBar
+        android:text="@string/Chargement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/stars"
+        style="@style/foodRatingBar"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ListImage"
+        android:layout_toEndOf="@+id/ListImage" />
+
+</RelativeLayout>
